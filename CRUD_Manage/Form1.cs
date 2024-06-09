@@ -153,6 +153,7 @@ namespace CRUD_Manage
             dataGridView1.AutoResizeColumn(2);
             dataGridView1.AutoResizeColumn(5);
             dataGridView1.AutoResizeColumn(6);
+            dataGridView1.Columns[4].DefaultCellStyle.Format = "$##,##0.00";
         }
 
         private void Form1_Load(object sender, EventArgs e)//Carga la tabla al iniciar el programa//
