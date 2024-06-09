@@ -154,6 +154,16 @@ namespace CRUD_Manage
             dataGridView1.AutoResizeColumn(5);
             dataGridView1.AutoResizeColumn(6);
             dataGridView1.Columns[4].DefaultCellStyle.Format = "$##,##0.00";
+            dataGridView1.RowsDefaultCellStyle.BackColor = Color.FromArgb(72, 96, 135);
+            dataGridView1.RowsDefaultCellStyle.ForeColor = Color.Black;
+            dataGridView1.RowsDefaultCellStyle.SelectionBackColor = Color.FromArgb(72, 96, 135);
+            dataGridView1.RowsDefaultCellStyle.SelectionForeColor = Color.Black;
+            dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.Silver;
+            dataGridView1.AlternatingRowsDefaultCellStyle.ForeColor = Color.Black;
+            dataGridView1.AlternatingRowsDefaultCellStyle.SelectionBackColor = Color.Silver;
+            dataGridView1.AlternatingRowsDefaultCellStyle.SelectionForeColor = Color.Black;
+            dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.None;
+            dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
         }
 
         private void Form1_Load(object sender, EventArgs e)//Carga la tabla al iniciar el programa//
